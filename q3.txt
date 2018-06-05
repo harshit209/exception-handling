@@ -1,0 +1,4 @@
+question 3
+
+An exception
+NameError: Hi there

@@ -1,0 +1,14 @@
+question 2
+
+IndexError
+
+l=[1,2,3]
+try:
+    print(l[3])
+except IndexError:
+    print("Given index is not in the range")
+
+output
+
+Given index is not in the range
+

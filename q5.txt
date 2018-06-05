@@ -1,0 +1,23 @@
+question 5
+
+try:
+    import b
+except ImportError:
+    print("module not found")
+try:
+    a=int(input("Enter a number"))
+except ValueError:
+    print("number can only be integer type")
+l=[1,2,3]
+try:
+    print(l[3])
+except IndexError:
+    print("Given index is not in the range")
+
+output
+
+module not found
+Enter a number harshit
+number can only be integer type
+Given index is not in the range
+
